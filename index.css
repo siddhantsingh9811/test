@@ -1,0 +1,72 @@
+body
+{
+margin: 0;
+padding: 0;
+font-family: 'Lato', sans-serif;
+}
+.section1
+{
+height: 600px;
+width: 100%;
+background-color: #FDFEFE;
+transform: skew(0deg,-10deg) translateY(-120px);
+}
+.top 
+{
+height: 700px;
+width: 100%;
+background-image: url("http://i01.appmifile.com/webfile/globalimg/en/goods/earphonepro/earphonepro-01.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+padding-bottom: 200px;
+}
+.a h1
+{
+font-family: monospace;
+color: white;
+margin-top: 300px;
+font-size: 40px;
+}
+.b
+{
+font-family: monospace;
+color: white;
+line-height: 700px;
+font-size: 40px;
+transform: skew(0deg,-10deg) translateY(-120px);
+}
+.section1
+{
+height: 500px;
+width: 100%;
+}
+.section2
+{
+height: 700px;
+width: 100%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-image: url("https://img2.goodfon.com/wallpaper/big/3/c7/makro-belye-naushniki-chernyy.jpg");
+transform: skew(0deg,10deg) translateY(-120px);
+}
+.section3
+{
+height: 500px;
+width: 100%;
+}
+.a
+{
+white-space: nowrap;
+overflow: hidden;
+animation: type 5s steps(40,end);
+letter-spacing: .15em;
+}
+@keyframes type 
+{
+from {width: 0%;}
+to {width: 100%;}
+}
